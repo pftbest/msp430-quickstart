@@ -8,14 +8,18 @@ version = "0.1.0"
 
 [dependencies.msp430-rt]
 features = ["abort-on-panic"]
-version = "0.1.0"
+version = "0.1.2"
+
+# [dependencies.msp430-rtfm]
+# git = "https://github.com/japaric/msp430-rtfm"
 
 [dependencies.msp430-rtfm]
-git = "https://github.com/japaric/msp430-rtfm"
+git = "https://github.com/cr1901/msp430-rtfm"
+branch = "at2xt-pin"
 
 [dependencies.msp430g2553]
 features = ["rt"]
-version = "0.1.0"
+version = "0.1.2"
 
 [profile.release]
 lto = true
